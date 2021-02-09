@@ -1,0 +1,576 @@
+@media (max-width: 1499.98px) {
+  .content-wrapper {
+    margin-bottom: 260px;
+  }
+}
+
+@media (max-width: 1199.98px) {
+  .navbar {
+    width: 260px;
+  }
+
+  .sidenav {
+    width: 260px;
+  }
+
+  .nav-link-collapse::before {
+    left: 130px;
+  }
+
+  .nav-link-show::before {
+    left: 130px;
+  }
+
+  .content-wrapper {
+    margin-bottom: 120px;
+    margin-left: 260px;
+  }
+
+  .direction-card {
+    min-height: 246px;
+  }
+
+  .services-card {
+    min-height: 209px;
+    height: auto;
+  }
+
+  .contact-form {
+    padding-left: 0;
+    padding-top: 80px;
+  }
+
+  .form-send {
+    padding-top: 80px;
+    padding-bottom: 80px;
+    padding-left: 0px;
+    padding-right: 20px;
+  }
+
+  .scroll-btn {
+    right: 3%;
+  }
+
+  .scroll-up {
+    bottom: 10%;
+  }
+}
+
+@media (max-width: 991.98px) {
+  .navbar {
+    background: #2E4096;
+    padding-left: 0;
+    padding-right: 0;
+    padding-bottom: 0;
+    width: 100%;
+  }
+
+  .navbar-brand {
+    padding-left: 16px;
+    margin-bottom: 1rem;
+  }
+
+  .navbar-toggler {
+    position: absolute;
+    right: 15px;
+    top: 27px;
+    width: 32px;
+    height: 32px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 0;
+    border: none;
+    outline: none;
+    box-shadow: none;
+  }
+
+  .navbar-toggler:hover,
+  .navbar-toggler:focus,
+  .navbar-toggler:active {
+    padding: 0;
+    border: none;
+    outline: none;
+    box-shadow: none;
+  }
+
+  .navbar-toggler-icon-up,
+  .navbar-toggler-icon-down {
+    position: absolute;
+    left: 15px;
+    content: ' ';
+    height: 24px;
+    width: 2px;
+    background-color: #fff;
+    transition: 0.3s linear;
+  }
+
+  .navbar-toggler.collapsed .navbar-toggler-icon-up {
+    top: 10px;
+    transform: rotate(90deg);
+  }
+
+  .navbar-toggler.collapsed .navbar-toggler-icon-down {
+    bottom: 10px;
+    transform: rotate(-90deg);
+  }
+
+  .navbar-toggler:not(.collapsed) .navbar-toggler-icon-up {
+    top: 2px;
+    transform: rotate(45deg);
+    transition: 0.3s linear;
+  }
+
+  .navbar-toggler:not(.collapsed) .navbar-toggler-icon-down {
+    bottom: 6px;
+    transform: rotate(-45deg);
+    transition: 0.3s linear;
+  }
+
+  .navbar-expand-lg .navbar-nav .nav-link.active::after {
+    display: none;
+  }
+
+  .navbar-expand-lg .navbar-nav .nav-services {
+    font-weight: 900;
+  }
+
+  .sidenav {
+    background: #F9F9F9;
+    width: 100%;
+  }
+
+  .nav-tel {
+    margin-top: 95px;
+    margin-left: 15px;
+    margin-bottom: 55px;
+  }
+
+  .content-wrapper {
+    margin-top: 83px;
+    margin-bottom: 120px;
+    margin-left: 0;
+  }
+
+  .card-header {
+    top: 83px;
+  }
+
+  .container-banner {
+    padding-left: 15px;
+  }
+
+  .company-banner {
+    background: url(../img/banner-logo.png) no-repeat 105% -13%, linear-gradient(280deg, rgba(78, 86, 159, 1) 0%, rgba(78, 86, 159, 1) 25%, rgba(78, 86, 159, 0.7) 50%, rgba(78, 86, 159, 0.03) 100%), url(../img/company-banner.jpg) no-repeat left top;
+  }
+
+  .team {
+    background: linear-gradient(90deg, rgba(78, 86, 159, 1) 0%, rgba(78, 86, 159, 1) 25%, rgba(78, 86, 159, 0.7) 80%, rgba(78, 86, 159, 0.03) 100%), url(../img/team.jpg) no-repeat right bottom;
+  }
+
+  .title-block-white {
+    margin-left: 0;
+  }
+
+  .team-text {
+    margin-left: 0;
+  }
+
+  .contact-items {
+    padding: 80px 40px 80px 40px;
+  }
+
+  .contact-form {
+    padding-top: 60px;
+  }
+
+  .footer {
+    height: auto;
+  }
+
+  .footer-text {
+    text-align: left;
+  }
+
+  .line {
+    width: 100%;
+    height: 1px;
+    background: #E8E8E8;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+
+  .scroll-btn {
+    opacity: 1;
+  }
+
+  /* ----------------------- */
+
+  .content-wrapper-secondary {
+    margin-bottom: 180px;
+  }
+}
+
+@media (max-width: 767.98px) {
+  .company-banner {
+    background: url(../img/banner-logo.png) no-repeat 103% -2% / 138px 138px, linear-gradient(280deg, rgba(78, 86, 159, 1) 0%, rgba(78, 86, 159, 1) 20%, rgba(78, 86, 159, 0.7) 50%, rgba(78, 86, 159, 0.03) 100%), url(../img/company-banner.jpg) no-repeat left top / cover;
+    padding-top: 75px;
+    padding-right: 0;
+    padding-bottom: 95px;
+    min-height: 380px;
+    margin-bottom: 56px;
+  }
+
+  .company-banner-text {
+    margin-left: 0;
+  }
+
+  .directions {
+    margin-bottom: 56px;
+  }
+
+  .team {
+    margin-bottom: 56px;
+  }
+
+  .work {
+    margin-bottom: 56px;
+  }
+
+  .get {
+    background: url(../img/map-bg2.png) no-repeat right 15% / 60%;
+    padding-top: 0;
+    padding-bottom: 56px;
+  }
+
+  /* ----------------------------- */
+
+  .warranty-main {
+    background: transparent;
+  }
+}
+
+@media (max-width: 575.98px) {
+  .navbar {
+    padding: 0;
+  }
+
+  .navbar-brand {
+    margin-bottom: 0;
+  }
+
+  .navbar-logo {
+    max-width: 77px;
+  }
+
+  .navbar-toggler {
+    top: 5px;
+  }
+
+  .navbar-toggler.collapsed .navbar-toggler-icon-up {
+    top: 6px;
+  }
+
+  .navbar-toggler.collapsed .navbar-toggler-icon-down {
+    bottom: 9px;
+  }
+
+  .navbar-collapse {
+    background: #fff;
+  }
+
+  .navbar-collapse:not(.show) {
+    min-height: 0;
+    transition: .5s cubic-bezier(0.97, 0.67, 1, 1);
+  }
+
+  .navbar-collapse.show {
+    min-height: 100vh;
+    transition: .5s cubic-bezier(0.97, 0.67, 1, 1);
+  }
+
+  .navbar-expand-lg .navbar-nav .nav-link {
+    padding-top: 4px;
+    padding-right: 15px;
+    padding-bottom: 4px;
+    font-size: 16px;
+  }
+
+  .content-wrapper {
+    margin-top: 40px;
+    margin-bottom: 120px
+  }
+
+  .card-header {
+    top: 40px;
+    min-height: auto;
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+
+  .btn-link {
+    font-size: 20px;
+  }
+
+  .company-banner {
+    background: url(../img/banner-logo.png) no-repeat 103% -2% / 138px 138px, linear-gradient(280deg, rgba(78, 86, 159, 1) 0%, rgba(78, 86, 159, 1) 20%, rgba(78, 86, 159, 0.7) 100%),
+      url(../img/company-banner.jpg) no-repeat top / cover;
+  }
+
+  .company-banner-text {
+    font-size: 14px;
+    line-height: 24px;
+  }
+
+  .title-block {
+    font-size: 18px;
+    background-size: 16px 16px;
+    padding-left: 25px;
+    margin-bottom: 16px;
+  }
+
+  .directions-text {
+    font-size: 13px;
+  }
+
+  .direction-card {
+    min-height: 160px;
+    padding: 12px 5px 8px 5px;
+  }
+
+  .direction-card-logo {
+    top: 13px;
+    left: 13px;
+    width: 15px;
+    height: 15px;
+  }
+
+  .direction-card-title {
+    font-size: 16px;
+  }
+
+  .direction-card-subtitle {
+    font-size: 13px;
+    color: #212330;
+  }
+
+  .direction-card-text {
+    font-size: 13px;
+  }
+
+  .team {
+    background: linear-gradient(90deg, rgba(78, 86, 159, 1) 0%, rgba(78, 86, 159, 1) 30%, rgba(78, 86, 159, 0.7) 70%, rgba(78, 86, 159, 0.03) 100%), url(../img/team.jpg) no-repeat 20% 0% / cover;
+    padding-top: 60px;
+    padding-bottom: 56px;
+  }
+
+  .team-text {
+    font-size: 13px;
+  }
+
+  .work-card {
+    font-size: 13px;
+    line-height: 19px;
+  }
+
+  .get-title {
+    background-position: left 15%;
+  }
+
+  .get-list {
+    margin-bottom: 24px;
+  }
+
+  .get-list-item {
+    padding-top: 4px;
+    padding-bottom: 4px;
+    padding-left: 26px;
+  }
+
+  .get-list-item::before {
+    width: 6px;
+    height: 6px;
+    top: 11px;
+    left: 12px;
+  }
+
+  .get-list-item::after {
+    content: '';
+    background: linear-gradient(90deg, rgba(46, 64, 150, 1) 0%, rgba(46, 64, 150, 0.76) 30%, rgba(46, 64, 150, 0.2) 80%, rgba(46, 64, 150, 0) 100%) right top;
+  }
+
+  .get-list-link {
+    font-size: 13px;
+  }
+
+  .get-text {
+    font-size: 13px;
+  }
+
+  .services .card-body {
+    padding-top: 80px;
+  }
+
+  .services-card {
+    min-height: auto;
+    padding: 24px 5px 16px 5px;
+  }
+
+  .services-card-title {
+    font-size: 16px;
+    margin-bottom: 8px;
+  }
+
+  .services-card-text {
+    font-size: 13px;
+  }
+
+  .contact-items {
+    padding: 60px 11px 40px 11px;
+  }
+
+  .contact-title {
+    font-size: 16px;
+  }
+
+  .contact-text {
+    font-size: 13px;
+    max-width: 150px;
+    line-height: 20px;
+  }
+
+  .contact-form {
+    padding-top: 40px;
+  }
+
+  .form-control {
+    padding-top: 8px;
+    padding-bottom: 8px;
+  }
+
+  .btn {
+    height: 40px;
+  }
+
+  .btn-form {
+    margin-top: 30px;
+  }
+
+  .form-send {
+    padding-top: 40px;
+  }
+
+  .form-send-img {
+    width: 52px;
+    height: 52px;
+    margin-bottom: 30px;
+  }
+
+  .form-send-text {
+    font-size: 16px;
+  }
+
+  .form-send-text br {
+    display: block;
+  }
+
+  .scroll-mail {
+    bottom: 3%;
+  }
+
+  /* --------------------------------------- */
+
+  .footer-logo img {
+    max-width: 77px;
+  }
+
+  .footer-tel {
+    background: url(../img/tel-icon.svg) no-repeat left 19px;
+    background-size: 16px 16px;
+    font-size: 14px;
+  }
+
+  .footer-text br {
+    display: block;
+  }
+
+  .footer-text {
+    font-size: 12px;
+    line-height: 20px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+  }
+
+  /* ---------------------------------- */
+
+  .etd-banner {
+    background: linear-gradient(90deg, rgba(78, 86, 159, 1) 0%, rgba(78, 86, 159, 1) 20%, rgba(78, 86, 159, 0.7) 65%, rgba(78, 86, 159, 0.03) 100%), url(../img/etd-banner.jpg) no-repeat center top / cover;
+    padding-top: 48px;
+    padding-bottom: 48px;
+  }
+
+  .etd-info-text {
+    font-size: 13px;
+    margin-bottom: 20px;
+  }
+
+  .etd-mail-text {
+    font-size: 13px;
+    line-height: 19px;
+  }
+
+  .etd-mail-text .etd-mail-link {
+    font-size: 13px;
+    line-height: 19px;
+  }
+
+  /* -------------------------------------- */
+
+  .warranty-banner {
+    background: linear-gradient(90deg, rgba(78, 86, 159, 1) 0%, rgba(78, 86, 159, 1) 20%, rgba(78, 86, 159, 0.7) 70%, rgba(78, 86, 159, 0.03) 100%), url(../img/warranty-banner.jpg) no-repeat center top / cover;
+    padding-top: 50px;
+    padding-bottom: 70px;
+    margin-bottom: 56px;
+  }
+
+  /* ------------------------------------ */
+
+  .registration-banner {
+    background: linear-gradient(90deg, rgba(78, 86, 159, 1) 0%, rgba(78, 86, 159, 1) 50%, rgba(78, 86, 159, 0.7) 80%, rgba(78, 86, 159, 0.03) 100%), url(../img/reg-banner.jpg) no-repeat center top / cover;
+    padding-top: 66px;
+    padding-bottom: 87px;
+  }
+
+  .warranty-main-title {
+    padding-right: 50px;
+  }
+
+  .comfortable-spot {
+    font-size: 13px;
+    line-height: 19px;
+    margin-bottom: 16px;
+  }
+
+  .points-text {
+    font-size: 13px;
+    line-height: 19px;
+  }
+
+  .point-text {
+    font-size: 16px;
+    font-weight: 600;
+  }
+
+  .point-text br {
+    display: none;
+  }
+
+  /* ----------------------------- */
+
+  .logistics-banner {
+    background: linear-gradient(90deg, rgba(78, 86, 159, 1) 0%, rgba(78, 86, 159, 1) 20%, rgba(78, 86, 159, 0.7) 50%, rgba(78, 86, 159, 0.03) 100%), url(../img/log-banner.jpg) no-repeat right top / cover;
+    padding-top: 82px;
+    padding-bottom: 112px;
+  }
+}
